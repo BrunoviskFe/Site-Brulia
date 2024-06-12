@@ -33,10 +33,11 @@ body {
     line-height: 1;
     font-family: 'Space Grotesk', sans-serif;
     min-height: 100vh;
-    background: linear-gradient(#041833,#04244F,#154580);
+    background: linear-gradient(#041833, #04244F, #154580);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    color: #E4C54D; /* Amarelo inspirado em Van Gogh */
 }
 ol, ul {
     list-style: none;
@@ -65,7 +66,7 @@ table {
 }
 
 .banner__titulo {
-    color: #FFFFFF;
+    color: #E4C54D; /* Amarelo inspirado em Van Gogh */
     font-size: 40px;
     width: 350px;
     line-height: 50px;
@@ -84,7 +85,7 @@ table {
 .cabecalho__busca {
     align-items: center;
     border-radius: 10px;
-    background: linear-gradient(45deg, #C98CF1,#7B78E5);
+    background: linear-gradient(45deg, #C98CF1, #7B78E5);
     display: flex;
     height: auto;
     justify-content: space-between;
@@ -109,6 +110,7 @@ table {
     height: 24px;
     padding: 10px;
     width: 500px;
+    color: #E4C54D; /* Amarelo inspirado em Van Gogh */
 }
 
 .busca__icone {
@@ -122,7 +124,7 @@ table {
 }
 
 .cards__titulo {
-    color: #7B78E5;
+    color: #E4C54D; /* Amarelo inspirado em Van Gogh */
     font-size: 2rem;
     line-height: 3rem;
     margin-bottom: 1.5rem;
@@ -142,15 +144,18 @@ table {
     margin-bottom: 1.5rem;
     position: relative;
     width: 450px;
+    background-color: #154580; /* Azul escuro inspirado em Van Gogh */
 }
 
 .card__imagem {
-    width: 450px;
-    border-radius: 10px 10px 0 0;
+    width: 50%; /* Largura das imagens */
+    height: auto; /* Mantém a proporção das imagens */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
 .card__tag {
-    background-color: #D9D9D940;
+    background-color: #E4C54D80; /* Amarelo translúcido inspirado em Van Gogh */
     border-radius: 8px;
     border: 2px solid transparent;
     font-size: 1.2rem;
@@ -161,6 +166,7 @@ table {
     text-align: center;
     top: 20px;
     width: 100px;
+    color: #041A37; /* Azul escuro */
 }
 
 .card__info {
@@ -220,20 +226,21 @@ table {
     align-items: center;
     margin-bottom: 1rem;
     margin-top: 1rem;
+    color: #E4C54D; /* Amarelo inspirado em Van Gogh */
 }
 
 .imagem__texto {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    color: #FFFFFF;
+    color: #E4C54D; /* Amarelo inspirado em Van Gogh */
     margin-top: 0.5rem;
 }
 
 .imagem__titulo {
     font-weight: bold;
     line-height: 2rem;
-    color: #FFFFFF;
+    color: #E4C54D; /* Amarelo inspirado em Van Gogh */
 }
 
 .imagem__texto {
@@ -267,7 +274,7 @@ table {
 
 .menu-lateral__navegacao a:first-child {
     font-weight: bold;
-    color: #7B78E5;
+    color: #E4C54D; /* Amarelo inspirado em Van Gogh */
 }
 
 .menu-lateral__navegacao img {
@@ -286,7 +293,7 @@ table {
 
 .populares__titulo {
     font-size: 2rem;
-    color: #7B78E5;
+    color: #E4C54D; /* Amarelo inspirado em Van Gogh */
     line-height: 3rem;
     margin-bottom: 1.5rem;
 }
@@ -304,7 +311,7 @@ table {
     width: 100%;
     height: 50px;
     border-radius: 10px;
-    background: linear-gradient(45deg, #C98CF1,#7B78E5);
+    background: linear-gradient(45deg, #C98CF1, #7B78E5);
     padding: 2px;
     box-sizing: border-box;
 }
@@ -362,6 +369,7 @@ table {
 
 .tags__titulo {
     margin-right: 4rem;
+    color: #E4C54D; /* Amarelo inspirado em Van Gogh */
 }
 
 .tags__lista {
@@ -369,16 +377,17 @@ table {
 }
 
 .tags__tag {
-    background-color: #D9D9D930;
+    background-color: #E4C54D50; /* Amarelo translúcido inspirado em Van Gogh */
     margin-right: 1.5rem;
     border-radius: 8px;
     padding: .8rem .5rem;
     width: 100px;
     text-align: center;
     border: 2px solid transparent;
+    color: #041A37; /* Azul escuro */
 }
 
 .tags__tag:hover {
-    border: 2px solid #7B78E5;
+    border: 2px solid #E4C54D; /* Amarelo inspirado em Van Gogh */
     cursor: pointer;
 }
